@@ -74,6 +74,7 @@ function App() {
           placeholder="Ingresa tu tarea"
           onBlur={handleOnChange}
         ></input>
+        <div className="btn btn-block btn-light mb-2">Agregar</div>
         <ul className="list-group">
           {forToDo.map((actividad, i) => {
             return (
